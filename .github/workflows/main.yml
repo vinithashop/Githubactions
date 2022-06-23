@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: First-action step
         id: hello
-        uses: actions/First-action-action@v1
+        uses: actions/Githubactions-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
